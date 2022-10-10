@@ -8,14 +8,14 @@ public abstract class Tier {
         this.color = color;
     }
 
-    abstract void makeSound();
+    public abstract void makeSound();
 
     public abstract void greet(Tier t);
 
     public abstract void eat(int gramm);
 
-    final void sleep(int hours) {
-        System.out.println(this + " sleeps for " + hours + " hours!");
+    public final void sleep(int hours) {
+        System.out.println(this + " sleeps for " + hours + " hours!\n");
     }
 
     public String getName() {
