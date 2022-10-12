@@ -17,16 +17,13 @@ public class Hai extends Fisch {
 
     public void huntFish(Fisch f) {
         System.out.println(this + " hunts " + f + "!");
-        int random = (int )(Math.random() * 3 + 1);
+        int random = (int) (Math.random() * 3 + 1); // Random Generator: 1-3
 
-        if (random == 0 || random == 1) {
-            System.out.println("The fish is dead!");
+        if (random == 0 || random == 1) { //33,33% chance to catch fish
+            System.out.println("The fish was able to escape!");
         } else {
-            System.out.println("The fish is still alive!");
+            System.out.println("The fish is dead!");
         }
-
     }
-
-
 }
 
