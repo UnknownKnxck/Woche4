@@ -15,24 +15,21 @@ public abstract class Fisch extends Tier {
         System.out.println(this + ": Glup!\n");
     }
 
-
     public void greet(Tier t) {
-        System.out.println(this + "\nHello, " + t + "\n");
+        System.out.println(this + "\nHello, " + t);
     }
 
     public void eat(int gramm) {
-        System.out.println(this + " eats " + gramm + " gramm food! \n");
+        System.out.println(this + " eats " + gramm + " gramm food!");
     }
 
     @Override
     public String toString() {
-
         return "Fisch [" + super.toString() + "]";
     }
 
     public void swim() {
-        System.out.println(this + "swims around! \n");
+        System.out.println(this + " swims around!");
     }
-
 }
 

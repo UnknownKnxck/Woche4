@@ -20,9 +20,9 @@ public class Hai extends Fisch {
         int random = (int )(Math.random() * 3 + 1);
 
         if (random == 0 || random == 1) {
-            System.out.print("The fish is dead! \n");
+            System.out.println("The fish is dead!");
         } else {
-            System.out.println("The fish is still alive! \n");
+            System.out.println("The fish is still alive!");
         }
 
     }
