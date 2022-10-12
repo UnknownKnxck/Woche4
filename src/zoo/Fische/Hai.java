@@ -1,9 +1,5 @@
 package zoo.Fische;
 
-import zoo.Tier;
-
-import java.util.Random;
-
 public class Hai extends Fisch {
 
     public Hai(String name) {

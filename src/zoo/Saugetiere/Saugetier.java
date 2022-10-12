@@ -1,5 +1,4 @@
 package zoo.Saugetiere;
-
 import zoo.Tier;
 
 public abstract class Saugetier extends zoo.Tier {

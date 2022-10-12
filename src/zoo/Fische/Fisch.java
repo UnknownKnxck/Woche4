@@ -1,6 +1,4 @@
 package zoo.Fische;
-
-
 import zoo.Tier;
 
 

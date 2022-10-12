@@ -3,9 +3,6 @@ import zoo.Saugetiere.*;
 import zoo.Vogel.*;
 
 public class Main {
-
-    //TODO: FIX OUTPUT
-
     public static void main(String[] args) {
         // write your code here
         Lachs l = new Lachs("Lachs");
