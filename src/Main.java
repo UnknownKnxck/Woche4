@@ -4,7 +4,6 @@ import zoo.Vogel.*;
 
 public class Main {
     public static void main(String[] args) {
-        // write your code here
         Lachs l = new Lachs("Lachs");
         Hai h = new Hai("Hai");
         Capybara c = new Capybara("Capybara", "brown");
