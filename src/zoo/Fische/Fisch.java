@@ -1,10 +1,11 @@
 package zoo.Fische;
+
 import zoo.Tier;
 
 
 public abstract class Fisch extends Tier {
 
-    protected Fisch(String name, String color) {
+    public Fisch(String name, String color) {
         super(name, color);
     }
 

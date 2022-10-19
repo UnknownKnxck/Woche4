@@ -2,6 +2,8 @@ import zoo.Fische.*;
 import zoo.Saugetiere.*;
 import zoo.Vogel.*;
 
+import java.sql.Blob;
+
 public class Main {
     public static void main(String[] args) {
         Lachs l = new Lachs("Lachs");
@@ -10,6 +12,7 @@ public class Main {
         Pelikan p = new Pelikan("Pelikan", "white");
         Tucan t = new Tucan("Tukan", "blue");
         Cow cc = new Cow("Cow", "rainbow");
+        Blobfish b = new Blobfish("Blobfish", "grey");
 
         l.greet(c);
         l.swim();
@@ -18,5 +21,6 @@ public class Main {
         p.makeSound();
         cc.makeSound();
         t.eat(200);
+        b.greet(b);
     }
 }
