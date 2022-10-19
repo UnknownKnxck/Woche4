@@ -1,8 +1,10 @@
-import zoo.Fische.*;
-import zoo.Saugetiere.*;
-import zoo.Vogel.*;
-
-import java.sql.Blob;
+import zoo.Fische.Blobfish;
+import zoo.Fische.Hai;
+import zoo.Fische.Lachs;
+import zoo.Saugetiere.Capybara;
+import zoo.Saugetiere.Cow;
+import zoo.Vogel.Pelikan;
+import zoo.Vogel.Tucan;
 
 public class Main {
     public static void main(String[] args) {
