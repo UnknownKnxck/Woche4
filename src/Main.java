@@ -1,10 +1,6 @@
-import zoo.Fische.Blobfish;
-import zoo.Fische.Hai;
-import zoo.Fische.Lachs;
-import zoo.Saugetiere.Capybara;
-import zoo.Saugetiere.Cow;
-import zoo.Vogel.Pelikan;
-import zoo.Vogel.Tucan;
+import zoo.Fische.*;
+import zoo.Saugetiere.*;
+import zoo.Vogel.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +12,7 @@ public class Main {
         Cow cc = new Cow("Cow", "rainbow");
         Blobfish b = new Blobfish("Blobfish", "grey");
 
-        l.greet(c);
+        l.greet(h);
         l.swim();
         h.huntFish(l);
         c.greet(c);

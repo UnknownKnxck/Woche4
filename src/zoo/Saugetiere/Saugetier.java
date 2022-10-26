@@ -1,4 +1,5 @@
 package zoo.Saugetiere;
+
 import zoo.Tier;
 
 public abstract class Saugetier extends zoo.Tier {
@@ -12,7 +13,7 @@ public abstract class Saugetier extends zoo.Tier {
 
     @Override
     public void makeSound() {
-        System.out.println(this + ": MUH!");
+        System.out.println(yellow() + this + ": MUH!" + reset());
     }
 
     @Override

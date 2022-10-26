@@ -13,7 +13,7 @@ public abstract class Vogel extends zoo.Tier {
 
     @Override
     public void makeSound() {
-        System.out.println(this + ": KRAH!");
+        System.out.println(yellow()+ this + ": KRAH!" + reset());
     }
 
     @Override

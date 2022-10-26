@@ -1,6 +1,6 @@
 package zoo;
 
-public abstract class Tier {
+public abstract class Tier extends colorCodes {
     final String name, color;
 
     protected Tier(String name, String color) {

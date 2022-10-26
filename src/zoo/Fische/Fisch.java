@@ -11,11 +11,11 @@ public abstract class Fisch extends Tier {
 
     @Override
     public final void makeSound() {
-        System.out.println(this + ": Glup!\n");
+        System.out.println(yellow() + this + ": Glup!\n" + reset());
     }
 
     public void greet(Tier t) {
-        System.out.println(this + "\nHello, " + t);
+        System.out.println(blue() + this + "\nHello, " + t + reset());
     }
 
     public void eat(int gramm) {
@@ -28,7 +28,7 @@ public abstract class Fisch extends Tier {
     }
 
     public void swim() {
-        System.out.println(this + " swims around!");
+        System.out.println(blue() + this + " swims around!" + reset());
     }
 }
 

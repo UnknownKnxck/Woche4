@@ -15,7 +15,7 @@ public class Lachs extends Fisch {
     @Override
     public void greet(Tier t) {
         if (t instanceof Hai) { //check if object t is Hai
-            System.out.println(this + " swims away from " + t);
+            System.out.println(red() + this + " swims away from " + t + reset());
         } else {
             super.greet(t);
         }
