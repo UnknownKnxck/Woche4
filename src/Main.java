@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Lachs l = new Lachs("Lachs");
         Hai h = new Hai("Hai");
-        Capybara c = new Capybara("Capybara", "pink");
-        Pelikan p = new Pelikan("Pelikan", "white");
-        Tucan t = new Tucan("Tukan", "blue");
-        Cow cc = new Cow("Cow", "rainbow");
-        Blobfish b = new Blobfish("Blobfish", "grey");
+        Capybara c = new Capybara("Gudrun", "pink");
+        Pelikan p = new Pelikan("Gerda", "white");
+        Tucan t = new Tucan("Alfons", "blue");
+        Cow cc = new Cow("Herbert", "rainbow");
+        Blobfish b = new Blobfish("Karlheinz", "grey");
 
         l.greet(h);
         l.swim();
